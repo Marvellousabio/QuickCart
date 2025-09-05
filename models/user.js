@@ -13,3 +13,6 @@ const userSchema= new mongoose.Schema({
 const User = mongoose.models.user || mongoose.model('user', userSchema)
 
 export default User
+
+//import mongooseas mongose then set a const name schema to be new mongoose schema and can have id name email 
+// set const User to be mongo
